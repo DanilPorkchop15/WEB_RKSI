@@ -1,0 +1,23 @@
+body{
+	height: 250px;
+}
+#elem1, #elem2, #elem3{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+#elem1{
+	border: 1px solid red;
+	left: 30px;
+	top: 30px;
+}
+#elem2{
+	border: 1px solid blue;
+	left: 100px;
+	top: 100px;
+}
+#elem3{
+	border: 1px solid green;
+	left: 170px;
+	top: 170px;
+}

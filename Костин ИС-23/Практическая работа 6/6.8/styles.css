@@ -1,0 +1,16 @@
+#wrapper{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0px auto;
+	border: 1px solid green;
+}
+
+#elem1{
+	border: 1px solid red;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 100px;
+	height: 100px;
+}
