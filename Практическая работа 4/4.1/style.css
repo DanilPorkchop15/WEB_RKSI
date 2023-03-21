@@ -1,0 +1,25 @@
+body {margin:0;
+	background-image: url("../images/y.jpg");
+}
+table {
+	font-size:12px;
+	border: 4px outset lightgrey;
+	margin:0 10px;
+	font-weight: bold;
+	margin: auto;
+}
+thead {
+	background-color: lightgrey;
+	color:#912a2a;
+}
+td {
+	border:1.5px inset lightgray;
+}
+caption {
+	color:#912a2a;
+	margin-bottom: 8px;
+}
+p{
+	text-align: center;
+	font-size: 10px;
+}

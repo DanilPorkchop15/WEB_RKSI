@@ -1,0 +1,49 @@
+p {
+	letter-spacing: 5px;
+}
+body{
+	color: #009933;
+	font-size: 14px;
+	font-family: arial;
+}
+.cursive{
+	font-style: italic;
+	text-decoration: underline;
+}
+.sans{
+	font-family: comic sans ms;
+	font-size: 25px;
+	text-indent: 50px;
+}
+.rich{
+	font: 15px arial;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 25px;
+	color: orange;
+}
+.perenos{
+	white-space: nowrap;
+}
+.red{
+	color: 	#ff0000;
+	text-transform: uppercase;
+}
+.courier{
+	font: 12px courier;
+	text-transform: uppercase;
+	letter-spacing: 50%;
+	text-decoration: underline;
+	text-indent: 2cm;
+	line-height: 200%;
+}
+.bigboy{
+	font-size: 	33px;
+	font-weight: 300%;
+	text-align: center;
+}
+.blackguy{
+	color: 	white;
+	background-color: brown;
+	text-shadow: violet	10px;
+}

@@ -1,0 +1,36 @@
+
+table {
+	border-collapse:collapse; 
+	font:15px times-new-roman;
+	margin: auto;
+	margin-bottom:22px}
+th {
+	background-color: lightgray;
+	padding:10px; 
+	font-size:18px;}
+td { 
+	padding:5px 10px;
+	color:#34495e;}
+caption {
+	font-size:24px;
+	padding:10px; 
+	color:#C4914B;
+ }
+ .description{
+ 	width: 350px;
+ 	padding-top: 20px;
+	text-align: justify;
+ }
+.name{
+	font-weight: bold;
+	font-size: 23px;
+}
+.painting{
+	width: 333px;
+}
+.port{
+	width: 170px;
+}
+p{
+	text-align: center;
+}
