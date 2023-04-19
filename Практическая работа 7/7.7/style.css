@@ -1,0 +1,25 @@
+.menu7 {list-style-type: none;}
+.menu7 li{margin-right: 15px; float: left;}
+.menu7 a{color: #000000; float: inline-end;}
+.menu7 a:link, .menu7 a:visited{
+	text-decoration: none;
+	color: black;
+	font: 13px Arial;
+	padding: 5px;
+}
+.menu7 a:hover{
+	color: blue;
+	
+}
+.icon{
+	height: 50px;
+	width: 50px;
+	float: ;
+    filter: contrast(0%);
+}
+
+.menu7 a:hover .icon{
+	filter: contrast(100%); 
+	filter: invert(10%);
+}
+

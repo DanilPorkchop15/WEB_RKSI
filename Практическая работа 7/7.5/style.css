@@ -1,0 +1,13 @@
+.menu5 {list-style-type: none;}
+.menu5 li{margin-right: 4px; float: left;}
+.menu5 a:link, .menu5 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu5 a:hover{
+	color: red;
+	
+}

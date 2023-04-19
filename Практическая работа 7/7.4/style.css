@@ -1,0 +1,28 @@
+.menu3 {list-style-type: none; width: 200px;}
+.menu3 li{margin-bottom: 5px;}
+.menu3 a{
+	color: white;
+}
+.menu3 a:link, .menu2 a:visited{
+	text-decoration: none;
+	background-color: royalblue;
+	font: 13px Arial;
+	border: 1px solid black;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu3 a:hover{
+	background-color: white;
+	color: blue;
+}
+.icon{
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	visibility: hidden;
+}
+.menu3 a:hover .icon{
+	visibility: visible;
+	opacity: 1;
+}

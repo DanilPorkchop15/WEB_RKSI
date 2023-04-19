@@ -1,0 +1,23 @@
+.menu9{
+	border-collapse: collapse;
+	height: 200px;
+	width: 300px;
+}
+.menu9 td, .menu9 th{
+	text-align: center;
+	margin: 0px;
+}
+.menu9 th{
+	font-size: 12px;
+	font-family: Arial;
+	border-bottom: 1px solid black;}
+.menu9 a:link, .menu9 a:visited{
+	text-decoration: none;
+	font: 13px Arial;
+}
+.menu9 a:hover{
+	color: red
+	
+}
+.day{color: black;}
+.weekend{color: gray}

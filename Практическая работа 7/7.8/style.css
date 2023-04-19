@@ -1,0 +1,16 @@
+.menu8 {list-style-type: none;}
+.menu8 li{ float: left;}
+.menu8 a{color: #ffffff; float: inline-end;}
+.menu8 a:link, .menu9 a:visited{
+	text-decoration: none;
+	color: white;
+	font: 13px Arial;
+	padding: 5px;
+	background-color: orange;
+	padding: 10px 15px;
+
+}
+.menu8 a:hover{
+	background-color: red
+	
+}

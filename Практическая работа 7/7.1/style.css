@@ -1,0 +1,20 @@
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearfix{
+	clear: both;
+}
+.menu1 {
+	color: blue; 
+	list-style-position: inside;}
+.menu1 a:link, .menu1 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	}
+.menu1 a:hover{
+	text-decoration: underline;
+	color: red;
+}
