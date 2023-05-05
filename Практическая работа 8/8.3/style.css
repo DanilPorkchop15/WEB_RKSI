@@ -1,0 +1,27 @@
+div{
+    width: 700px;
+    margin: auto;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: deeppink;
+}
+p{
+    margin-left: 20px;
+    text-indent: 50px;
+    text-align: left;
+    margin-right: 20px;
+}
+.color{
+    color: green;
+    font-weight: bold;
+}
+a{
+    margin-left: 580px;
+    color: deeppink;
+    text-decoration: none;
+}

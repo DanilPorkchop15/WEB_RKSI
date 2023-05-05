@@ -1,0 +1,24 @@
+.block{
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+h1{
+    padding-left: 20px;
+    line-height: 10px;
+    color:blue;
+}
+p{
+    padding-left: 60px;
+}
+a{
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+li{
+    margin-left: 20px;
+}

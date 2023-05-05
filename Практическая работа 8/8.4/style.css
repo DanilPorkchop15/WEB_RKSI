@@ -1,0 +1,34 @@
+.block{
+    width: 850px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+p{
+    padding: 0 10px;
+    margin-bottom: 5px;
+    font: 16px Arial;  
+}
+.menu { display: flex; justify-content: flex-start; background-color: black}
+.menu a{color: white; float: inline-end; background-color: black;}
+.menu a:link, .menu a:visited{
+    text-decoration: none;
+    color: white;
+    font: 13px Arial;
+    padding: 5px;
+    background-color: black;
+    padding: 10px 15px;
+
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+    
+}
