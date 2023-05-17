@@ -1,0 +1,113 @@
+body{
+    margin:auto;
+    padding:auto;
+    width: 1400px;
+    background-image:url(images/fon00000.jpg)
+}
+
+header{
+    text-align: center;
+    color: magenta;
+    font-family: "Comic Sans MS";
+}
+
+.flex-container {
+    display: flex;
+    width: 1400px;
+    flex-wrap: row;
+}
+
+.flex-container div {
+    margin: 10px;
+    text-align: left;
+    line-height:35px;
+    font-size: 16px;
+}
+#tale{
+    flex-basis:1000px;
+    color: royalblue;
+    font:18px Lobster;
+    line-height: 120%; 
+    text-align: justify;
+}
+
+#tale p{
+    margin: 15px 20px;
+}
+
+#tale img {  
+  width: 300px;
+
+}
+
+#tale::first-letter {
+  font-size: 40px;
+  font-weight: bold;
+  color: darkblue;
+}
+.leftPic{
+    float: left; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.rightPic{
+    float: right; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#products{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+}
+
+#products table{
+    border-collapse: collapse;
+}
+
+#products td, th{
+    border: solid 1px black;
+    color: black;
+}
+
+#products a:link, a:visited{
+    text-decoration: none;
+    font-weight: bolder;
+    color: darkmagenta;
+    transition: transform 0.6s ease-in-out;
+
+}
+#products a:hover{
+    transform: scale(1.5);
+}
+#products a:active{
+    color: mediumvioletred;
+}
+#tale .toStart:link, .toStart:visited{
+    color: purple;
+    font-size: 22px;
+    text-decoration: none;
+    transition: transform 0.6s ease-in-out;
+}
+
+#tale .toStart:hover{
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+nav h2{
+    color: magenta;
+}
+nav a:link, a:visited{
+    text-decoration: none;
+    color: mediumpurple;
+    font-size: 20px;
+}
+
+#intro:target, #meet:target, #plan:target, #granny:target, #happyEnd:target{
+    background-color: yellow;
+}
