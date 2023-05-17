@@ -1,0 +1,76 @@
+body{
+    border: 1px solid grey;
+    width: 700px;
+    height: 800px;
+    border-radius: 10px;
+}
+fieldset{
+    width: 600px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-color: rgb(157, 255, 255);
+    background-color: rgb(255, 246, 208);
+}
+legend{
+    color: rgb(69, 182, 182);
+    font-size: 18px;
+}
+h1{
+    margin-left: 10px;
+    color:rgb(131, 75, 2);
+}
+
+input[type="submit"] {
+    background: linear-gradient(to bottom, rgb(233, 255, 251), rgb(171, 252, 245));
+    color: rgb(131, 75, 2);
+    padding: 12px 24px;
+    border: 1px solid rgb(127, 253, 243);
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+input{
+    margin-bottom: 8px;
+    margin-left: 20px;
+    
+}
+#name{
+    margin-left: 105px;
+    width: 250px;
+}
+#mail{
+    margin-left: 96px;
+    width: 250px;
+}
+#phone{
+    width: 250px;
+    margin-left: 76px;
+}
+#date{
+    width: 250px;
+}
+#age{
+    width: 250px;
+    margin-left: 81px;
+}
+textarea{
+    resize: vertical;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 195px;
+    height: 60px;
+}
+select{
+    margin-left: 28px;
+    width: 250px;
+}
+input[type="number"] {
+    margin-left: 73px;
+    width: 104px;
+}
+#text4area{
+    display: flex; 
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> 10.2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <h1>Анкета посетителя ресторана</h1>
+            <form action="" method="GET">
+                <fieldset>
+                <legend>Контактная информация</legend>
+                <label>Имя<input id=name name=name type="text"></label><br>
+                <label>Телефон<input type="tel" id="phone" name="phone" placeholder="+7 (XXX) XXX-XX-XX" pattern="\+7\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}" required ></label><br>
+                <label>Email<input id=mail name=mail type="email"></label><br>
+                <label>Дата Посещения<input id=date name=date type="date"></label><br>
+                </fieldset>
+    
+                <fieldset>
+                <legend>Персональная информация</legend>
+                <label>Возраст<input type="number" id=age name=age min="1" max="100" step="1"></label><br>
+                <label>Любимая кухня<select>
+                    <option>Русская</option>
+                    <option>Итальянская</option>
+                    <option>Французская</option>
+                    <option>Грузинская</option>
+                </select></label><br>
+                <label id="text4area">Предложения для меню?<textarea></textarea></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Оценка нашего заведения</legend>
+                    <h4>Почему вы выбрали наше заведение?</h4>
+                    <label><input type="radio" name="choise" value="next to">недалеко от дома/работы</label><br>
+                    <label><input type="radio" name="choise" value="sovet">посоветовали</label><br>
+                    <label><input type="radio" name="choise" value="rek">увидел рекламу</label><br>
+                    <label><input type="radio" name="choise" value="zaebis cena">оптимальное соотношение цены и качества</label><br>
+                    <h4>Вы будете рекомендовать наше заведение знакомым?</h4>
+                    <label><input type="radio" name="choise2" value="YEEES">Да</label><br>
+                    <label><input type="radio" name="choise2" value="no">Нет</label><br>
+                </fieldset>
+                <input type="submit" value="Отправить">
+                
+            </form>
+            
+
+        </body>
+</html>
