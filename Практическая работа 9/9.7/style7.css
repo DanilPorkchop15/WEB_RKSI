@@ -1,0 +1,15 @@
+#textarea1 {
+    resize: both;
+}
+
+#textarea2 {
+    resize: horizontal;
+}
+
+#textarea3 {
+    resize: vertical;
+}
+
+#textarea4 {
+    resize: none;
+}
