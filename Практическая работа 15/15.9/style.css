@@ -1,0 +1,50 @@
+body{
+	margin: 0px;
+}
+@keyframes bouncing{
+	40%, 70%, 90%{
+		animation-timing-function: ease-out;
+		bottom: 0;
+	}
+	0%{
+		bottom: 470px;
+		left: 0;
+		animation-timing-function: ease-in;
+	}
+	50%{
+		bottom: 250px;
+		animation-timing-function: ease-in;
+	}
+	75%{
+		bottom: 120px;
+		animation-timing-function: ease-in;
+	}
+	95%{
+		bottom: 50px;
+		animation-timing-function: ease-in;
+	}
+	100%{
+		left: 470px;
+		bottom: 0;
+		animation-timing-function: ease-out;
+	}
+}
+
+
+#wrapper{
+	margin: 0px auto;
+	width: 500px;
+	height: 500px;
+	border: 1px solid red;
+	position: relative;
+	margin-top: 300px;
+}
+#ball{
+	background: red;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	position: absolute;
+	
+	animation: bouncing 5s infinite;
+}

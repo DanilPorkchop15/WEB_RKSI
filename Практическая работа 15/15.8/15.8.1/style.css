@@ -1,0 +1,17 @@
+@keyframes test{
+	0%{width: 60px;}
+	100%{width: 50%;}
+}
+
+#wrapper{
+	width: 60px;
+	height: 60px;
+	border: 1px solid red;
+	animation: test 5s infinite;
+	animation-play-state: paused;
+}
+#wrapper:hover{
+	animation-play-state: running;
+}
+
+
