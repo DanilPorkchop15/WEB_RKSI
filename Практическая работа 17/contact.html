@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Contact</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<section class="section">
+		<nav>
+			<h2 class="menu-title">
+				Содержание
+			</h2>
+			<ul class="menu">
+				<li class="menu__item">
+					<a href="index.html">
+						На главную
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="history.html">
+						История лилий
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="examples/gallery.html">
+						Фотогалерея
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="contact.html">
+						Контакты
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<form action="send.php" method="post" class="form">
+			<h1 class="form__title">
+				Контактная информация
+			</h1>
+			<h2 class="form__title_2">
+				Обратная связь
+			</h2>
+			<div class="form__block">
+				<div class="form__item">
+					<label for="name">Ваше имя</label>
+					<input type="text" id="name" class="form__input">
+				</div>
+				<div class="form__item">
+					<label for="email">Эл.почта</label>
+					<input type="email" id="email" required class="form__input">
+				</div>
+				<div class="form__item">
+					<label for="theme">Тема</label>
+					<input type="text" id="theme" class="form__input">
+				</div>
+				<div class="form__item">
+					<label for="messenge">Текст<br> сообщения</label>
+					<textarea id="messenge" class="form__messenge"></textarea>
+				</div>
+				<div class="form__item">
+					<button class="btn">
+						Отправить
+					</button>
+				</div>	
+			</div>
+		</form>
+	</section>
+</body>
