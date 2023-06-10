@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 72px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+}
+.container {
+    max-width: 1124px;
+    width: 1124px;
+}
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.header__flex img {
+    margin-left: 3%;
+    margin-right: 4px;
+}
+.header__flex nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__flex nav img {
+    margin-left:23px;
+    margin-right: 101px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+
+}
+.restor {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 89px;
+}
+.restor .container > p { 
+    font-size: 22px;
+    margin-top: 56px;
+    margin-left: 1%;
+    margin-bottom: 0;
+}
+.restor__price {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-left: 1%;
+}
+.restor__price__elem {
+    flex: 0 308px;
+    margin-top: 36px;
+    cursor: pointer;
+}
+.restor__price__elem p:nth-child(2) {
+    font-size: 16px;
+}
+.restor__price__elem p:nth-child(3) {
+    font-size: 14px;
+    color: #626262;
+}
+.restor__price__elem p:nth-child(4) {
+    font-size: 13px;
+    color: #1D1D1D;
+}
+
+
+.search__input {
+    width: 100%;
+    margin-top: 56px;
+
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+}
+.search__input::placeholder {
+    font-size: 16px;
+}
+
+.container nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 17px;
+}
+
+
+
+.footer {
+    display:  flex;
+    justify-content: center;
+    min-height: 500px;
+    background-color: #262626;
+}
+
+.footer__el {
+    display:  flex;
+    border-bottom: 1px solid grey;
+}
+
+.footer__logo {
+    padding: 40px;
+    padding-left: 0;
+}
+
+
+.footer__el_big {
+    min-height: 220px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__selection {
+    margin: 35px 100px;
+    margin-left: 0;
+    width: 230px;
+    height:  40px;
+    background-color: #3b3b3b;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.slc__img-shape {
+    padding: 15px;
+    padding-left: 85px;}
+
+.slc__img-world {
+    padding: 12px;
+    padding-right: 15px;
+}
+
+.slc__txt {
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    bottom:  14px;
+}
+
+.slc__logos {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.slc__logos img {
+    margin-top: 15px;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+.slc__txt_special {
+    font-size: 18px;
+    color:  white;
+}
+.slc__txt_special span {
+    color: limegreen;
+}
+
+.slc__flexs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 0 600px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.trash {
+    flex: 0 300px;
+}
+
+.flexs__nav {
+    flex: 0 250px;
+}
+
+.flexs__nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer-img__apps, .footer-img__google {
+    padding: 35px 0;
+    cursor: pointer;
+}
+
+.footer-img__apps {
+    margin-right: 20px;
+}
+
+.footer__el_special {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__el_ss {
+    border-bottom: none;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.last-txt {
+    color: white;
+    flex: 0 240px;
+}
+
+.last-txt a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.last-txt_sup {
+    flex: 0 300px;
+}
+.last-txt p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.pointer img {
+    position: relative;
+    top: 22px;
+    left: 27px;
+}
+.pointer {
+    background-color: limegreen;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .header__flex nav img {
+        margin-right: 23px;
+    }
+}
